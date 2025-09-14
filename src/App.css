@@ -1,0 +1,36 @@
+.cart-btn {
+  display: inline-block;
+  background: #ff9f00;   /* Flipkart orange */
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cart-btn:hover {
+  background: #f08900;
+  transform: scale(1.05);
+}
+.cart-icon {
+  background-color: rgb(244, 115, 115);
+  font-size: 1rem;
+  padding: 0.75em 2em;
+  cursor: pointer;
+}
+.store-btn {
+  font-size: 1rem;
+  padding: 0.75em 2em;
+  background-color: rgb(244, 115, 115);
+  cursor: pointer;
+}
+.search-bar {
+  font-size: 1.2rem;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
