@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 
 
 import { useCart } from '../context/CartContext';
-import { getProductById } from '../api/api';
+import { getProductById } from './api/Api';
 
 export default function ProductDetails() {
   const { id } = useParams();
